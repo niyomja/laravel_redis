@@ -5,7 +5,8 @@
 @stop
 
 @section('footer')
-    <script src="{{ asset('js/socket.io.js') }}"></script>
+    <!--script src="{{ asset('js/socket.io.js') }}"></script-->
+    <script src="https://cdn.socket.io/socket.io-1.3.7.js"></script>
     <script>
         //var socket = io('http://localhost:3000');
         var socket = io('http://192.168.137.200:3000');
